@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "case-pismo"
+version = "1.0"
+description = "Case for "
+authors = ["hermes-augusto <hermes.barboza@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.5.1"
+pyspark = "^3.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
